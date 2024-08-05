@@ -12,7 +12,7 @@ export const NavBar = () => {
             <a href="#">Popular</a>
         </li>
         <li>
-            <a href="#">Treading</a>
+            <a href="#">Viral</a>
         </li>
         <li>
             <a href="#">Categorias</a>
