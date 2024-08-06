@@ -2,6 +2,8 @@ import { Header } from "./components/Header"
 import { MainArticle } from "./components/MainArticle"
 import { NewContainer } from "./components/NewContainer"
 import { ArticleContainer } from "./components/ArticleContainer"
+import { Footer } from "./components/Footer"
+
 function App() {
   return (
     <main className="px-4 pt-6">
@@ -11,6 +13,7 @@ function App() {
       <NewContainer/>
       </div> 
       <ArticleContainer/>
+      <Footer/>
     </main>
   )
 }
