@@ -1,4 +1,5 @@
 import  burgerMenu  from "..//assets/images/icon-menu.svg";
+
 export const NavBar = () => {
   return (
     <>
@@ -18,8 +19,15 @@ export const NavBar = () => {
             <a href="#">Categorias</a>
         </li>
     </ul>
-    <img className="w-20 h-4 cursor-pointer sm:hidden" 
-    src={burgerMenu} alt="Menu Hamburgesa" />
+    
+    <div >
+        <button>
+         <img className="w-20 h-4 cursor-pointer sm:hidden" 
+         src={burgerMenu} alt="Menu Hamburgesa" /> 
+        </button>
+      
+    </div>
     </>
+    
   )
 }
